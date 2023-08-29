@@ -1,6 +1,9 @@
 CREATE DATABASE IF NOT EXISTS `api`;
 USE `api`;
 
+CREATE DATABASE IF NOT EXISTS `api_test`;
+USE `api_test`;
+
 CREATE TABLE IF NOT EXISTS `person` (
   `id` bigint(20) NOT NULL AUTO_INCREMENT,
   `cpf` varchar(255) NOT NULL,
