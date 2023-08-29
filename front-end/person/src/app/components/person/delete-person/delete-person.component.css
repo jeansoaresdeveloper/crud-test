@@ -1,0 +1,54 @@
+.background {
+    top: 0;
+    left: 0;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+}
+
+.modal {
+    border-radius: 20px;
+    background: #fff;
+    min-width: 360px;
+    min-height: 150px;
+    position: fixed;
+    left: 50%;
+    padding: 24px;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.modal div {
+    display: flex;
+    gap: 10px;
+}
+
+.modal div button {
+    border: 1px solid #0f5b86;
+    background-color: rgb(255, 255, 255);
+    color: #0f5b86;
+    border-radius: 10px;
+    width: 150px;
+    margin-left: 10px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.modal div button:hover {
+    cursor: pointer;
+}
+
+.modal div button.submit {
+    border: 1px solid #ffffff;
+    background-color: #750303;
+    color: #ffffff;
+}
+
+.modal div button.submit:hover {
+    background-color: #941c1c;
+}
