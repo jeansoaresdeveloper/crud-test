@@ -49,4 +49,4 @@ Front-end para consumir a api desenvolvido em Angular
  ```
 
 ### Collection postman para testes
-Acesse a collection [aqui](https://www.postman.com/winter-comet-282388/workspace/person-elotech)
+Acesse a collection [aqui](https://www.postman.com/winter-comet-282388/workspace/person)
