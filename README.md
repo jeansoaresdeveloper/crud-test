@@ -1,7 +1,7 @@
-## Finalizando crud
+## Finalizando CRUD
 
-Crud de pessoas e contatos utilizando spring boot no back-end
-Front-end para consumir a api desenvolvido em Angular
+- CRUD de pessoas e contatos utilizando spring boot no back-end
+- Front-end para consumir a api desenvolvido em Angular
 
 ### Database script
 ```
